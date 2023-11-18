@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    background-image: crimson;
+}
+
+.profile {
+    border-radius: 50%;
+
+}
+
+#welcome {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 30;
+    position: absolute;
+    color: palevioletred;
+    bottom: 0;
+    background: hotpink;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+
+h1 {
+
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+h2 {
+
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+#Games {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: thistle ;
+}
+
+#app {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 100px;
+    text-align: center;
+    background-image: orchid;
+}
+
+#Websites{
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 30px;
+    text-align: center;
+    background-image: mediumorchid;
+    border-image-width: 100px ;
+}
+
+#ChatBots {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: lightseagreen;
+}
+
+
+#contact {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 30px;
+    text-align: center;
+    background-image: teal;
+}
+
+p {
+    font-size: 17px;
+}
+
+.menu {
+    position: fixed;
+    background-image: darkcyan;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+
+}
+
+
+html {
+    scroll-behavior:smooth;
+}
+  
+img {
+
+    transition: transform .2s;
+}
+
+img:hover {
+    border: 4px solid ;
+    transform: scale(0.9);
+}
+
+
+#contact {
+    background: ghostwhite;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: mintcream;
+    text-shadow: none;
+}
